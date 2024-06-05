@@ -38,7 +38,7 @@
     </div>
 
     <div class="card-container" >
-      <div class="card">
+      <div class="card col-md-2">
         <i class="fas fa-graduation-cap fa-4x " style="padding-bottom: 7%; padding-top: 5%;"></i>
         <h3>Formação (Training)</h3>
         <p>Formação Contínua e Atualizada</p>
@@ -50,7 +50,7 @@
 
         </ul>
       </div>
-      <div class="card">
+      <div class="card col-md-2">
         <i class="fa-solid fa-magnifying-glass fa-4x " style="padding-bottom: 7%;  padding-top: 5%;"></i>
         <h3>Investigação (Research)</h3>
         <p>Investigação Aplicada e Inovadora</p>
@@ -61,7 +61,7 @@
  
         </ul>
       </div>
-      <div class="card">
+      <div class="card col-md-2">
         <i class="fa-solid fa-puzzle-piece fa-4x " style="padding-bottom: 7%;  padding-top: 5%;"></i>
         <h3>Experiências (Experiences)</h3>
         <p>Desenvolvimento Prático em Áreas de Ponta</p>
@@ -72,7 +72,7 @@
  
         </ul>
       </div>
-      <div class="card">
+      <div class="card col-md-2">
         <i class="fas fa-user-graduate fa-4x " style="padding-bottom: 7%;  padding-top: 5%;"></i>
         <h3>Mentoria (Mentoring)</h3>
         <p>Apoio Académico e Profissional</p>
@@ -106,12 +106,17 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .radialGradient {
-  
+ 
   background: linear-gradient(180deg, rgba(87, 18, 108, 1) 0%, rgba(224, 140, 250, 1) 80%, rgba(224, 140, 250, 0) 100%);
 }
 
+
+
 .card-container {
+  z-index: 2;
+
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 5% 5% 0% 5%;
 }

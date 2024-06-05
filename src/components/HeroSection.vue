@@ -11,25 +11,25 @@
 
       <!-- Cards Section -->
       <div class="cards-section row justify-content-center">
-        <div class="card col-md-3">
+        <div class="card col-md-2">
           <i class="fa-solid fa-trophy fa-3x mb-3" style="color: #57126c;"></i>
           <h5 class="card-title">FORMAÇÃO</h5>
           <p class="card-text">Cursos flexíveis e continuamente atualizados, assegurando que os participantes mantenham
             um conhecimento avançado e relevante.</p>
         </div>
-        <div class="card col-md-3">
+        <div class="card col-md-2">
           <i class="fa-solid fa-book fa-3x mb-3" style="color: #57126c;"></i>
           <h5 class="card-title">TECNOLOGIAS EMERGENTES</h5>
           <p class="card-text">Formação prática em tecnologias como Internet das Coisas (IoT) e outras inovações
             tecnológicas.</p>
         </div>
-        <div class="card col-md-3">
+        <div class="card col-md-2">
           <i class="fa-solid fa-briefcase fa-3x mb-3" style="color: #57126c;"></i>
           <h5 class="card-title">PROJETOS INOVADORES</h5>
           <p class="card-text">Aceite o desafio e desenvolva um projeto numa das nossas áreas de ponta. Prove que está
             pronto para a ioAcademy.</p>
         </div>
-        <div class="card col-md-3">
+        <div class="card col-md-2">
           <i class="fa-solid fa-graduation-cap fa-3x mb-3" style="color: #57126c;"></i>
           <h5 class="card-title">MENTORIA ESPECIALIZADA</h5>
           <p class="card-text">Suporte contínuo e personalizado para ajudar a alcançar o máximo potencial e crescer na
@@ -74,11 +74,10 @@ export default {
 .cards-section {
   z-index: 2;
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   margin-top: 300px;
   /* Ajuste conforme necessário */
-  padding-left: 15%;
-  padding-right: 15%;
+ 
   justify-content: center;
   opacity: 75%;
 }
