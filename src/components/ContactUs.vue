@@ -58,6 +58,9 @@ export default {
       .then(
           () => {
             alert('SUCCESS!');
+            document.getElementById("from_name").value = '';
+            document.getElementById("email_id").value = '';
+            document.getElementById("message").value = '';
           },
           (error) => {
             alert('FAILED...', error.text);
